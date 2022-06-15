@@ -13,11 +13,11 @@
 		base_layer {
 // Base layer with ctrl at backspace position
 // ------------------------------------------------------------------------------------------
-// | ESC |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   BKSP   |
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   "|"   |
-// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |none| ENTER   |
+// | ESC |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  | "|"| DEL |
+// |  TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   BKSP  |
+// | LCTL  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |none| ENTER   |
 // | SHIFT |none| Z |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |    Shift   | FN |
-// |  LCTL  |  LWIN  |  LALT  | SPACE  | SPACE |    SPACE   |  RALT | FN  |   RWIN  | RCTRL |
+// |  LCTL  |  LWIN  |  LALT  | SPACE  | SPACE |   SPACE   |  SPACE | RALT  | RWIN  | RCTRL |
 // | Rotary | (<-- Rotary switch) ----------------------------------------------------------- 
 				bindings = <
 	&kp ESC		 &kp NUM_1 	&kp NUM_2	&kp NUM_3 	&kp NUM_4 &kp NUM_5 &kp NUM_6 	&kp NUM_7 	&kp NUM_8 &kp NUM_9	&kp NUM_0	&kp MINUS	&kp EQL  	&none	&kp BKSP
